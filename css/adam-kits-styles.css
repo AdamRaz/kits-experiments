@@ -1,0 +1,42 @@
+
+body {
+    background: linear-gradient(0deg,#181221,#410099);
+    color: #dddce9;
+    font-size: calc(16px + 0.2vw);
+    width:100%;
+    margin: 0;
+}
+
+.intro {
+    height: 10vh;
+}
+
+.main-block {
+    height: 90vh;
+    width: 640px;
+    margin: 0px auto;
+}
+
+.kits-text-small{
+    font-family: "Baskerville No 2",serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #69727b;
+    line-height: 1.5;
+}
+
+.kits-text-bold{
+    font-size: 96px;
+    margin: 0 0 17.5px;
+    margin-bottom: 17.5px;
+    font-family: "Caslon Bold",serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.gradient-bg {
+    background: linear-gradient(0deg,#140f1b,#43029e);
+}
