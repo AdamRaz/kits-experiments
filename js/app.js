@@ -8,4 +8,4 @@ function clearText () {
     variableText.innerText = "(ki:ts)";
 }
 let intervalID = setInterval(repeatedCode, 1500);
-let intervalID2 = setInterval(clearText, 9000);
+let intervalID2 = setInterval(clearText, 12000);

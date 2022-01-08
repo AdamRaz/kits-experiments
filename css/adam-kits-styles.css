@@ -31,7 +31,7 @@ body {
 }
 
 .kits-text-hero{
-    font-size: calc(128px + 10vw);
+    font-size: calc(72px + 10vw);
     margin: 0 0 17.5px;
     margin-bottom: 17.5px;
     font-family: "Caslon Bold",serif;
@@ -43,7 +43,7 @@ body {
 }
 
 .kits-text-bold{
-    font-size: calc(64px + 2vw);
+    font-size: calc(36px + 2vw);
     margin: 0 0 17.5px;
     margin-bottom: 17.5px;
     font-family: "Caslon Bold",serif;
