@@ -1,20 +1,25 @@
 
 body {
-    background: linear-gradient(0deg,#181221,#410099);
-    color: #dddce9;
+    /* background: linear-gradient(0deg,#181221,#410099); */
+    /* color: #dddce9; */
+    color: black;
     font-size: calc(16px + 0.2vw);
     width:100%;
     margin: 0;
 }
 
 .intro {
-    height: 10vh;
+    height: 5vh;
+    width: 100%;
+    margin: 0px auto;
 }
 
 .main-block {
-    height: 90vh;
-    width: 640px;
+    height: 80vh;
+    width: 80vw;
     margin: 0px auto;
+    padding: 16px;
+    border: 4px solid black;
 }
 
 .kits-text-small{
@@ -25,8 +30,20 @@ body {
     line-height: 1.5;
 }
 
+.kits-text-hero{
+    font-size: 256px;
+    margin: 0 0 17.5px;
+    margin-bottom: 17.5px;
+    font-family: "Caslon Bold",serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.2;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
 .kits-text-bold{
-    font-size: 96px;
+    font-size: 128px;
     margin: 0 0 17.5px;
     margin-bottom: 17.5px;
     font-family: "Caslon Bold",serif;
