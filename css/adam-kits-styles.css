@@ -9,9 +9,14 @@ body {
 }
 
 .intro {
-    height: 5vh;
+    height: 10vh;
     width: 100%;
     margin: 0px auto;
+}
+
+nav {
+    padding: 0px 24px;
+    border: 2px solid black;
 }
 
 .main-block {
@@ -56,4 +61,19 @@ body {
 
 .gradient-bg {
     background: linear-gradient(0deg,#140f1b,#43029e);
+}
+
+/* page 2 */
+
+.rotating-oval {
+    width: 1000px;
+    height: 5px;
+    /* background-color: black; */
+    border: 30px solid black;
+    margin: 50px;
+    /* padding: 5px; */
+}
+
+.rotate {
+    transform: rotate(30deg);
 }
