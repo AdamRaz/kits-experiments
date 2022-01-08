@@ -72,6 +72,8 @@ nav {
     border: 30px solid black;
     margin: 50px;
     /* padding: 5px; */
+    position: relative;
+    top: -40px; left: -140px;
 }
 
 .rotate {
