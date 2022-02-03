@@ -93,3 +93,54 @@ nav {
 .rotate {
     transform: rotate(30deg);
 }
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.top-left-block {
+    grid-column: 2 / span 3;
+  }
+
+.center-block {
+    grid-column: 4 / span 6;
+  }
+
+.bottom-right-block {
+    grid-column: 9 / span 3;
+  }
+
+.center-items {
+    display: grid;
+    place-items: center;
+    text-align: center
+  }
+
+  .kits-text-hero-s {
+    font-size: calc(80px + 5vw);
+    /* margin: 0px auto; */
+    font-family: "Caslon Bold",serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+.rounded {
+    border-radius: 10%;
+}
