@@ -101,9 +101,9 @@ nav {
 }
 
 .top-left-block {
-    grid-column: 2 / span 3;
+    grid-column: 2 / span 4;
     /* grid-row: 1/ span 2; */
-    height: 200px;
+    height: 160px;
   }
 
 .center-block {
@@ -111,8 +111,8 @@ nav {
   }
 
 .bottom-right-block {
-    grid-column: 9 / span 3;
-    height: 200px;
+    grid-column: 8 / span 4;
+    height: 160px;
   }
 
 .center-items {
@@ -162,6 +162,7 @@ nav {
     
     .center-block {
         grid-column: 4 / span 6;
+        height: 360px;
       }
     
     .bottom-right-block {
@@ -170,7 +171,7 @@ nav {
       }
     
       .kits-text-hero-s {
-        font-size: calc(60px + 4vw);
+        font-size: calc(40px + 4vw);
     }
 
     .chibi-image {
